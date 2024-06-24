@@ -7,7 +7,7 @@ const Index = () => {
 
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" p={4}>
-      <VStack spacing={4}>
+      <VStack spacing={4} align="center">
         <Heading as="h1" size={headingSize} textAlign="center">
           PlataPay
         </Heading>
