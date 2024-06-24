@@ -24,23 +24,23 @@ const Index = () => {
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={10}>
         <Box>
           <Image src="/images/feature1.png" alt="Feature 1" borderRadius="md" />
-          <Heading size="md" mt={4}>Feature 1</Heading>
-          <Text mt={2}>Description of feature 1.</Text>
+          <Heading size="md" mt={4}>Secure Transactions</Heading>
+          <Text mt={2}>Experience peace of mind with our top-notch security measures.</Text>
         </Box>
         <Box>
           <Image src="/images/feature2.png" alt="Feature 2" borderRadius="md" />
-          <Heading size="md" mt={4}>Feature 2</Heading>
-          <Text mt={2}>Description of feature 2.</Text>
+          <Heading size="md" mt={4}>Ease of Use</Heading>
+          <Text mt={2}>Our platform is designed to be user-friendly and intuitive.</Text>
         </Box>
         <Box>
           <Image src="/images/feature3.png" alt="Feature 3" borderRadius="md" />
-          <Heading size="md" mt={4}>Feature 3</Heading>
-          <Text mt={2}>Description of feature 3.</Text>
+          <Heading size="md" mt={4}>Fast Processing</Heading>
+          <Text mt={2}>Enjoy quick and efficient payment processing.</Text>
         </Box>
         <Box>
           <Image src="/images/feature4.png" alt="Feature 4" borderRadius="md" />
-          <Heading size="md" mt={4}>Feature 4</Heading>
-          <Text mt={2}>Description of feature 4.</Text>
+          <Heading size="md" mt={4}>Comprehensive Support</Heading>
+          <Text mt={2}>We offer 24/7 support to assist you with any issues.</Text>
         </Box>
       </SimpleGrid>
       <Box bg="gray.100" p={10} borderRadius="md">
@@ -48,15 +48,19 @@ const Index = () => {
         <VStack spacing={5}>
           <Flex align="center">
             <FaCheckCircle size="24px" />
-            <Text ml={2}>Benefit 1: Secure and reliable</Text>
+            <Text ml={2}>Secure and reliable</Text>
           </Flex>
           <Flex align="center">
             <FaCheckCircle size="24px" />
-            <Text ml={2}>Benefit 2: Easy to use</Text>
+            <Text ml={2}>Easy to use</Text>
           </Flex>
           <Flex align="center">
             <FaCheckCircle size="24px" />
-            <Text ml={2}>Benefit 3: Fast transactions</Text>
+            <Text ml={2}>Fast transactions</Text>
+          </Flex>
+          <Flex align="center">
+            <FaCheckCircle size="24px" />
+            <Text ml={2}>Comprehensive support</Text>
           </Flex>
         </VStack>
       </Box>
