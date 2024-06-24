@@ -21,7 +21,7 @@ const Index = () => {
           </Button>
         </Box>
       </VStack>
-    <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={10}>
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={10}>
         <Box>
           <Image src="/images/feature1.png" alt="Feature 1" borderRadius="md" />
           <Heading size="md" mt={4}>Feature 1</Heading>
@@ -59,6 +59,52 @@ const Index = () => {
             <Text ml={2}>Benefit 3: Fast transactions</Text>
           </Flex>
         </VStack>
+      </Box>
+      <Box bg="gray.100" p={10} borderRadius="md" mt={10}>
+        <Heading size="lg" textAlign="center" mb={4}>Our Features</Heading>
+        <VStack spacing={5}>
+          <Flex align="center">
+            <FaCheckCircle size="24px" />
+            <Text ml={2}>Online Payments</Text>
+          </Flex>
+          <Flex align="center">
+            <FaCheckCircle size="24px" />
+            <Text ml={2}>In-Person Payments</Text>
+          </Flex>
+          <Flex align="center">
+            <FaCheckCircle size="24px" />
+            <Text ml={2}>Integrations</Text>
+          </Flex>
+          <Flex align="center">
+            <FaCheckCircle size="24px" />
+            <Text ml={2}>No Code Tools</Text>
+          </Flex>
+          <Flex align="center">
+            <FaCheckCircle size="24px" />
+            <Text ml={2}>APIs</Text>
+          </Flex>
+        </VStack>
+      </Box>
+      <Box bg="gray.100" p={10} borderRadius="md" mt={10}>
+        <Heading size="lg" textAlign="center" mb={4}>Not just a payment platform</Heading>
+        <Text textAlign="center" mb={4}>PlataPay offers a range of services to help your business grow.</Text>
+        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+          <Box>
+            <Heading size="md" mt={4}>PlataPay POS</Heading>
+            <Text mt={2}>Description of PlataPay POS.</Text>
+            <Button colorScheme="teal" mt={4}>Learn More</Button>
+          </Box>
+          <Box>
+            <Heading size="md" mt={4}>PlataPay Billing</Heading>
+            <Text mt={2}>Description of PlataPay Billing.</Text>
+            <Button colorScheme="teal" mt={4}>Learn More</Button>
+          </Box>
+        </SimpleGrid>
+      </Box>
+      <Box bg="gray.100" p={10} borderRadius="md" mt={10}>
+        <Heading size="lg" textAlign="center" mb={4}>Testimonials</Heading>
+        <Text textAlign="center" mb={4}>"PlataPay has transformed the way we handle payments. It's fast, secure, and easy to use!"</Text>
+        <Text textAlign="center" fontStyle="italic">- Satisfied Customer</Text>
       </Box>
     </Container>
   );
